@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MST LED test parser", "MST LED test parser\MST LED test parser.csproj", "{59626C0F-274B-42E7-9838-C67C8407FBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59626C0F-274B-42E7-9838-C67C8407FBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59626C0F-274B-42E7-9838-C67C8407FBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59626C0F-274B-42E7-9838-C67C8407FBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59626C0F-274B-42E7-9838-C67C8407FBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630B33DC-0C1A-48AB-89DB-3A04B3BDB097}
+	EndGlobalSection
+EndGlobal
