@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSettingsOperations.cs" />
+    <Compile Include="Data struct\DbRecordStruct.cs" />
+    <Compile Include="Data struct\modelSpecStruc.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,11 +54,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OperationsOnResultDir.cs" />
-    <Compile Include="PcbTestResults.cs" />
+    <Compile Include="Data struct\PcbTestResults.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlOperations.cs" />
-    <Compile Include="TestFilesInformation.cs" />
+    <Compile Include="Data struct\TestFilesInformation.cs" />
     <Compile Include="TestFilesOperations.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

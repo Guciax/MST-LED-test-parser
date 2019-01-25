@@ -7,9 +7,9 @@ namespace MST_LED_test_parser
 {
     class PcbTestResults
     {
-        public PcbTestResults( string pcbSerial, DateTime inspectionTime, double voltage, double current, string funcResult, string hiPotResult, bool parsedToDb)
+        public PcbTestResults(int lineIndex,  string pcbSerial, DateTime inspectionTime, double voltage, double current, string funcResult, string hiPotResult, bool parsedToDb)
         {
-
+            LineIndex = lineIndex;
             PcbSerial = pcbSerial;
             InspectionTime = inspectionTime;
             Voltage = voltage;
@@ -18,7 +18,7 @@ namespace MST_LED_test_parser
             ParsedToDb = parsedToDb;
         }
 
-
+        public int LineIndex { get; }
         public string PcbSerial { get; }
         public DateTime InspectionTime { get; }
         public double Voltage { get; }
